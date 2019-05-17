@@ -11,8 +11,8 @@ namespace Calculator
             string oper;
 
             Console.WriteLine("Calculator");
-            
-             Console.WriteLine("masukan angka pertama: ");
+
+            Console.WriteLine("masukan angka pertama: ");
             strangka1 = Console.ReadLine();
 
             while(!float.TryParse(strangka1, out angka1))
